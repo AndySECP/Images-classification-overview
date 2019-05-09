@@ -23,7 +23,7 @@ We computed three matrix per axis (one per color). Each matrix represents the co
 
 We then created eight features using the "maximum" gradient matrix on the x axis, by splitting our images in four quarters, and computing the average intensity of the gradient and its sum on all quarters. You can visualize below a visualization of one x-axis gradient matrice for an image of plane. 
 
-![gradient_y](https://user-images.githubusercontent.com/38164557/57491478-d4e29200-7271-11e9-9a69-42a8803c68a4.PNG | width=100)
+![gradient_y](https://user-images.githubusercontent.com/38164557/57491478-d4e29200-7271-11e9-9a69-42a8803c68a4.PNG)
 
 ### Correlation between the features previously created
 
