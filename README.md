@@ -21,9 +21,9 @@ To extract the keypoints out of the images, we are using **KAZE features**. It i
 
 We computed three matrix per axis (one per color). Each matrix represents the color gradient along either the x-axis or the y-axis. Then, we realized a maximum wise operation per axis (using the three color matrix per axis). The idea is to emphasize gradients variation without taking into account the specific color, to focus instead on the shapes within the image.
 
-We then created eight features using the "maximum" gradient matrix on the x axis, by splitting our images in four quarters, and computing the average intensity of the gradient and its sum on all quarters. You can visualize bellow a visualization of one x-axis gradient matrice for an image of plane. 
+We then created eight features using the "maximum" gradient matrix on the x axis, by splitting our images in four quarters, and computing the average intensity of the gradient and its sum on all quarters. You can visualize below a visualization of one x-axis gradient matrice for an image of plane. 
 
-![gradient_y](https://user-images.githubusercontent.com/38164557/57491478-d4e29200-7271-11e9-9a69-42a8803c68a4.PNG)
+![gradient_y](https://user-images.githubusercontent.com/38164557/57491478-d4e29200-7271-11e9-9a69-42a8803c68a4.PNG | width=100)
 
 ### Correlation between the features previously created
 
